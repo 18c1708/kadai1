@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/kadai1/kadai1.ko := ld -r  -EL  -maarch64elf  --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o /home/ubuntu/kadai1/kadai1.ko /home/ubuntu/kadai1/kadai1.o /home/ubuntu/kadai1/kadai1.mod.o;  true
